@@ -13,8 +13,7 @@
     --accent-text: #2196F3;
 
     /* Светлая тема фона */
-    --primary-light-bg: #E5E5E5;
-    --secondary-light-bg: #FFFFFF;
+    --primary-light-bg: #FFFFFF;
 
     /* Темная тема фона */
     --primary-dark-bg: #2F303A;
@@ -43,12 +42,11 @@ text-decoration: none;
 /* header */
 
 .header {
-background-color: var(--secondary-light-bg);
+background-color: var(--primary-light-bg);
 }
 
 .logo {
 font-family: var(--secondary-font);
-font-weight: 400;
 font-size: 26px;
 line-height: 1.19;
 letter-spacing: 0.03em;
@@ -58,7 +56,6 @@ color: var(--accent-text);
 
 .logo-primary {
 font-family: var(--secondary-font);
-font-weight: 400;
 font-size: 26px;
 line-height: 1.19;
 letter-spacing: 0.03em;
@@ -231,6 +228,7 @@ color: var(--primary-dark-txt);
 }
 
 .address-map {
+font-style: normal;
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
@@ -244,6 +242,7 @@ color: var(--accent-text);
 }
 
 .address-mail {
+font-style: normal;
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
@@ -257,6 +256,7 @@ color: var(--accent-text);
 }
 
 .address-phone {
+font-style: normal;  
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
