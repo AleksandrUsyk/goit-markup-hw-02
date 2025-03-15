@@ -72,11 +72,18 @@ a {
 }
 
 .hero-btn {
+  cursor: pointer;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  background-color: #4d5ae5;
   color: #fff;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: #404bbf;
 }
 
 /* -----hero----- */
@@ -84,6 +91,7 @@ a {
 /* -----benefits----- */
 
 .benefits-subtitle {
+  font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
@@ -105,11 +113,16 @@ a {
 }
 
 .team-title {
+  text-transform: capitalize;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+}
+
+.team-list {
+  background-color: #ffffff;
 }
 
 .team-subtitle {
@@ -133,6 +146,7 @@ a {
 /* -----portfolio----- */
 
 .portfolio-title {
+  text-transform: capitalize;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
